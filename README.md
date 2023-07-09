@@ -58,16 +58,15 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Set up `.env` file
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=example
+DB_NAME=nest-events
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+APP_URL=mywebsite.com
+SUPPORT_EMAIL=support@${APP_URL}
+```
